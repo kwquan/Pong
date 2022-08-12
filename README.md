@@ -20,7 +20,8 @@ Observation space: \
      Action space: \
 &emsp;             We only consider 6 useful actions with similar pairs \
 &emsp;             As mentioned in the article, the actions are [‘NOOP’, ‘FIRE’, ‘RIGHT’, ‘LEFT’, ‘RIGHTFIRE’, ‘LEFTFIRE’] with 
-&emsp;             3 of the 6 being redundant (FIRE is equal to NOOP, LEFT is &emsp; equal to LEFTFIRE and RIGHT is equal to RIGHTFIRE) \
+&emsp;             3 of the 6 being redundant (FIRE is equal to NOOP, LEFT is \ 
+&emsp;             equal to LEFTFIRE and RIGHT is equal to RIGHTFIRE) \
      Rewards: \
 &emsp;               1 if ball hit past opponent's paddle \
 &emsp;               -1 if ball hit past agent's paddle \
