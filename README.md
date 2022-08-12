@@ -15,11 +15,13 @@ Doing so will result in a reward=1. \
 On the contrary, losing to the opponent will result in a reward=-1. \
 Episode terminates when either player reaches a score of 21. 
      
-Observation space: We changed the observation space to return a 4x84x84 state \
-     Action space: We only consider 6 useful actions with similar pairs \
+Observation space: \
+&nbsp;             We changed the observation space to return a 4x84x84 state \
+     Action space: \
+&nbsp;             We only consider 6 useful actions with similar pairs \
 &nbsp;             As mentioned in the article, the actions are [‘NOOP’, ‘FIRE’, ‘RIGHT’, ‘LEFT’, ‘RIGHTFIRE’, ‘LEFTFIRE’] with 
 &nbsp;             3 of the 6 being redundant (FIRE is equal to NOOP, LEFT is equal to LEFTFIRE and RIGHT is equal to RIGHTFIRE) \
-&nbsp;      Rewards: \
+     Rewards: \
 &nbsp;               1 if ball hit past opponent's paddle \
 &nbsp;               -1 if ball hit past agent's paddle \
 &nbsp;               0 otherwise
