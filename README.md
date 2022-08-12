@@ -25,6 +25,9 @@ Observation space: \
 &emsp;               1 if ball hit past opponent's paddle \
 &emsp;               -1 if ball hit past agent's paddle \
 &emsp;               0 otherwise
+
+# Notes
+If skip training, please download the pre-trained weights[pong_agent.pth] before running all sections[expect 'Train agent' & 'Save model weights'] \
          
         
 # Documentation
