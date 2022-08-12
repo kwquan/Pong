@@ -19,9 +19,7 @@ Observation space: \
 &emsp;             We changed the observation space to return a 4x84x84 state \
      Action space: \
 &emsp;             We only consider 6 useful actions with similar pairs \
-&emsp;             As mentioned in the article, the actions are [‘NOOP’, ‘FIRE’, ‘RIGHT’, ‘LEFT’, ‘RIGHTFIRE’, ‘LEFTFIRE’] with 
-&emsp;             3 of the 6 being redundant (FIRE is equal to NOOP, LEFT is \ 
-&emsp;             equal to LEFTFIRE and RIGHT is equal to RIGHTFIRE) \
+&emsp;             As mentioned in the article, the actions are [‘NOOP’, ‘FIRE’, ‘RIGHT’, ‘LEFT’, ‘RIGHTFIRE’, ‘LEFTFIRE’] with 3 of the 6 being redundant (FIRE is &emsp;             equal to NOOP, LEFT is equal to LEFTFIRE and RIGHT is equal to RIGHTFIRE) \
      Rewards: \
 &emsp;               1 if ball hit past opponent's paddle \
 &emsp;               -1 if ball hit past agent's paddle \
