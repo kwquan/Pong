@@ -9,7 +9,7 @@ Most of the code is derived from this article here[https://towardsdatascience.co
 I removed parts of it to make it simpler & added my own explanations in the notebook. \
 Also, I used this on the latest Pong version[V5]
 
-Aim: \ 
+Aim: \
 &emsp; Pong consists of 2 paddles, the left paddle is controlled by the game AI while the right paddle is controlled by our agent \
 &emsp; The objective of each player is to hit the ball past the opponent's paddle. \
 &emsp; Doing so will result in a reward=1. \
