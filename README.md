@@ -2,7 +2,7 @@
 This repo contains the code to solve the Pong environment using Deep Q-learning [DQN]
 
 # Description
-![alt text](https://github.com/kwquan/Pong/blob/main/pong_sample_2.png)
+![alt text](https://github.com/kwquan/Pong/blob/main/pong_sample_2.jpg)
 
 In this notebook[Pong.ipynb], we shall solve the Pong environment using Deep Q-learning. \
 Most of the code is derived from this article here[https://towardsdatascience.com/deep-q-network-dqn-i-bce08bdf2af]. \
